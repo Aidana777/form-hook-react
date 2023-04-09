@@ -29,6 +29,7 @@ input {
 .btn {
   background-color: #6874E8;
 }
+
 select {
   display: flex;
   align-items: center;
