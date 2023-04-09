@@ -7,7 +7,7 @@ export default function App() {
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <input {...register('firstname')} />
-            <input type="text" {...register('surname')} />
+            <input  {...register('surname')} />
             <input type="date"{...register('date of birth')} />
             <select  {...register('gender')} >
                 <option value="female">female</option>
