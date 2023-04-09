@@ -15,8 +15,7 @@ form {
   border-radius: 10%;
 }
 
-input,
-select {
+input {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,4 +28,14 @@ select {
 
 .btn {
   background-color: #6874E8;
+}
+select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 70px;
+  margin-top: 15px;
+  margin-left: 40px;
+  font-size: 20px;
 }
